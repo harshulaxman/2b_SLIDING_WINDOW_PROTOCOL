@@ -40,7 +40,7 @@ while True:
    print(s.recv(1024).decode())
    s.send("acknowledgement recieved from the server".encode())
 ```
-## OUPUT
+## OUTPUT
 ![image](https://github.com/user-attachments/assets/4b9690be-3f8e-4846-8d61-b490779c2854)
 ![image](https://github.com/user-attachments/assets/96aa205b-56c3-4593-a5ab-47731ea9492e)
 
